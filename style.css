@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header (Navigation Menu) */
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid red;
+
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    flex-direction: row;
+    list-style-type: none;
+}
+.menu li a{
+    text-decoration: none;
+    margin: 14px 18px;
+}
