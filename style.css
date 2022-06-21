@@ -117,9 +117,13 @@
 }
 .box{
     border: 2px solid black;
-    height: 70px;
+    height: 300px;
     text-align: center;
     width: 20%;
-
+    border-radius: 14px;
+    background-color: grey;
     
+}
+.box h3{
+    padding: 12px;
 }
